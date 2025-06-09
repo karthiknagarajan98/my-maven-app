@@ -8,6 +8,15 @@
   <name>my-maven-app</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+    <build>
+  <plugins>
+    <plugin>
+      <groupId>org.codehaus.mojo</groupId>
+      <artifactId>exec-maven-plugin</artifactId>
+      <version>3.1.0</version>
+    </plugin>
+  </plugins>
+</build>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
