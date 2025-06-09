@@ -8,7 +8,15 @@
   <name>my-maven-app</name>
   <url>http://maven.apache.org</url>
   <dependencies>
-    <build>
+    
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <build>
   <plugins>
     <plugin>
       <groupId>org.codehaus.mojo</groupId>
@@ -17,11 +25,4 @@
     </plugin>
   </plugins>
 </build>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
 </project>
